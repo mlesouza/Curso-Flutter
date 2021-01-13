@@ -30,7 +30,7 @@ class Resultado extends StatelessWidget {
         ),
         FlatButton(
           child: Text(
-            'Reiniciar ?',
+            'Reiniciar',
             style: TextStyle(fontSize: 18),
           ),
           onPressed: quandoReiniciarQuestionario,
