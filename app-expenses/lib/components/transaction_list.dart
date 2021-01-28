@@ -41,13 +41,8 @@ class TransactionList extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      tr.title,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                      ),
-                    ),
+                    Text(tr.title,
+                        style: Theme.of(context).textTheme.headline6),
                     Text(
                       DateFormat('d MMM y').format(tr.date),
                       style: TextStyle(
